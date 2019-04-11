@@ -1,7 +1,7 @@
 Myntcore
 =======
 
-This is Under's fork of Bitpay's Bitcore that uses Mynt 2.1.1 It has a limited segwit support.
+This is Under's fork of Bitpay's Bitcore that uses Mynt 6.1.1 It has a limited segwit support.
 
 It is HIGHLY recommended to use https://github.com/joenilan/myntcore-deb to build and deploy packages for production use.
 
@@ -58,7 +58,7 @@ Copy the following into a file named myntcore-node.json and place it in ~/.myntc
     "insight-api": {
       "routePrefix": "api",
       "coinTicker" : "https://api.coinmarketcap.com/v1/ticker/mynt/?convert=USD",
-      "coinShort": "RVN",
+      "coinShort": "MYNT",
 	    "db": {
 		  "host": "127.0.0.1",
 		  "port": "27017",
@@ -73,7 +73,7 @@ Copy the following into a file named myntcore-node.json and place it in ~/.myntc
         "datadir": "/home/<yourusername>/.myntcore/data",
         "exec": "/home/<yourusername>/myntcore/node_modules/myntcore-node/bin/myntd",
         "rpcqueue": 1000,
-        "rpcport": 8766,
+        "rpcport": 7774,
         "zmqpubrawtx": "tcp://127.0.0.1:28332",
         "zmqpubhashblock": "tcp://127.0.0.1:28332"
       }
@@ -108,7 +108,7 @@ timestampindex=1
 spentindex=1
 zmqpubrawtx=tcp://127.0.0.1:28332
 zmqpubhashblock=tcp://127.0.0.1:28332
-rpcport=8766
+rpcport=7774
 rpcallowip=127.0.0.1
 rpcuser=mynt
 rpcpassword=local321 #change to something unique
