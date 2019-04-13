@@ -1,6 +1,6 @@
 {
   "name": "myntcore",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A platform to build mynt and blockchain-based applications.",
   "author": "Under",
   "main": "index.js",
