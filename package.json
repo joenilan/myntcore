@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "myntcore-lib": "joenilan/myntcore-lib",
-    "myntcore-node": "joenilan/myntcore-node",
+    "myntcore-node": "joenilan/myntcore-node#ad08db943ee97442a27b088b9f090bb878095484",
     "insight-api": "joenilan/insight-api",
     "insight-ui": "joenilan/insight-ui"
   },
